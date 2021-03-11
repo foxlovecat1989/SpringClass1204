@@ -11,6 +11,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "Orders")
 public class Orders {
+    
     @Id
     @GeneratedValue
     private Integer id;
