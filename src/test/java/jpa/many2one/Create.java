@@ -12,23 +12,28 @@ public class Create extends JPATemplate {
         
         // Customer
         Customer c1 = new Customer();
-        c1.setLastName("John"); 
+        c1.setLastName("Mary"); 
         
         // Orders
         Orders o1 = new Orders();
-        o1.setOrderName("Apple");
+        o1.setOrderName("Cat");
         Orders o2 = new Orders();
-        o2.setOrderName("Banna");
+        o2.setOrderName("Dog");
         
         // 配置關聯關係
         o1.setCustomer(c1);
         o2.setCustomer(c1);
         
-        // 執行保存動作
+//        // 執行保存動作 - 次序1
+//        session.persist(o1);
+//        session.persist(o2);
+//        session.persist(c1);
+        
+        // 執行保存動作 - 次序2
+        session.persist(c1);
         session.persist(o1);
         session.persist(o2);
-        session.persist(c1);
-        
+
         System.out.println("Finish~`");
     }
 }
