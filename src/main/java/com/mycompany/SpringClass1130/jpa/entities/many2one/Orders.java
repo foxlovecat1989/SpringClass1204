@@ -25,7 +25,7 @@ public class Orders {
     // FetchType.LAZY 不預先select加載資料, 等到程式有使用到時才會去 Select
     // @ManyToOne(fetch = FetchType.LAZY)
     // FetchType.EAGER 預先select加載資料
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne
     // 使用 @JoinColumn 來設定映射外鍵
     @JoinColumn(name = "customer_id", referencedColumnName = "id")
     private Customer customer;
