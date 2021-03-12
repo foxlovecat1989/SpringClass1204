@@ -1,7 +1,7 @@
 package jpa.twoway;
 
-import com.mycompany.SpringClass1130.jpa.twoway.Department;
-import com.mycompany.SpringClass1130.jpa.twoway.Employee;
+import com.mycompany.SpringClass1130.jpa.entities.twoway.Department;
+import com.mycompany.SpringClass1130.jpa.entities.twoway.Employee;
 import jpa.JPATemplate;
 import org.junit.Test;
 

@@ -1,4 +1,5 @@
-package com.mycompany.SpringClass1130.jpa.twoway;
+package com.mycompany.SpringClass1130.jpa.entities.twoway;
+
 
 import java.util.ArrayList;
 import java.util.List;

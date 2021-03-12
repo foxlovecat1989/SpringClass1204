@@ -1,4 +1,4 @@
-package com.mycompany.SpringClass1130.jpa.twoway;
+package com.mycompany.SpringClass1130.jpa.entities.twoway;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
